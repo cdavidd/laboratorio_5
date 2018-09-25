@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.eci.pdsw.validator.SalaryValidatorTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec - in edu.eci.pdsw.validator.SalaryValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec - in edu.eci.pdsw.validator.SalaryValidatorTest
