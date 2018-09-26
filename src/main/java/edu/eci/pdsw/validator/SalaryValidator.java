@@ -27,6 +27,5 @@ public class SalaryValidator implements EmployeeValidator {
 		}else {
 			return Optional.empty();
 		}
-		
 	}
 }
