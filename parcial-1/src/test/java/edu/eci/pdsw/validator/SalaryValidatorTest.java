@@ -29,8 +29,7 @@ public class SalaryValidatorTest {
 		qt()
 			.forAll(empleadoss.empleados())
 			.check(empleado -> {
-				Optional<ErrorType> tipo= validator.validate(empleado);
-				
+				Optional<ErrorType> tipo= validator.validate(empleado);				
 				if (empleado.getPersonId()>100000) {
 					return Optional.of(ErrorType.INVALID_ID).equals(tipo);
 				}else if(empleado.getPersonId()<1000) {
@@ -49,10 +48,7 @@ public class SalaryValidatorTest {
 					return true;
 				}else {
 					return false;
-				}
-				
-				
+				}	
 			});
-		
 	}
 }
